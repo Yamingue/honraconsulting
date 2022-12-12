@@ -2,15 +2,15 @@ import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
-import Link from 'components/Link';
+// import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
-import Cta from 'views/HomePage/Cta';
-import Features from 'views/HomePage/Features';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
+// import Cta from 'views/HomePage/Cta';
+// import Features from 'views/HomePage/Features';
+// import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
-import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
+// import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -34,7 +34,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="pour suppléer à vos besoins en consulting." overTitle="plan 2" reversed>
             <p>
-            La qualité de notre conseil augmente, ce qui génère plus de satisfactions. Cela crée une fidélité et une relation d'une durée plus longue.
+            La qualité de notre conseil augmente, ce qui génère plus de satisfactions. Cela crée une fidélité et une relation d&apos;une durée plus longue.
             </p>
             <ul>
               <li>Professional point 1</li>

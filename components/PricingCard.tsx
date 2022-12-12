@@ -93,6 +93,6 @@ const CustomRichText = styled(RichText)`
   }
 `;
 
-const CustomButton = styled(Button)`
-  width: 100%;
-`;
+// const CustomButton = styled(Button)`
+//   width: 100%;
+// `;
