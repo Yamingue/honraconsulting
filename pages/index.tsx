@@ -20,7 +20,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="Honraconsulting va vous assurer un accompagnement personnalisé, une réactivité aux études et la fiabilité que seul les consultants reconnu pourront vous offrir."
         />
       </Head>
       <HomepageWrapper>
